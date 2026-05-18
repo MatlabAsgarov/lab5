@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Tapşırıq 1</title>
+    <style>
+        body {
+            background-color: #dcdcdc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            position: relative;
+            width: 500px;
+            height: 350px;
+        }
+
+        .box {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+        }
+
+        .green {
+            background-color: #2e7d32;
+            top: 20px;
+            left: 20px;
+            z-index: 1;
+        }
+
+        .blue {
+            background-color: #0000ff;
+            top: 20px;
+            left: 190px;
+            z-index: 2;
+        }
+
+        .yellow {
+            background-color: #ffff33;
+            top: 100px;
+            left: 90px;
+            z-index: 3;
+        }
+
+        .red {
+            background-color: #e32619;
+            top: 100px;
+            left: 260px;
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box green"></div>
+        <div class="box blue"></div>
+        <div class="box yellow"></div>
+        <div class="box red"></div>
+    </div>
+
+</body>
+</html>
